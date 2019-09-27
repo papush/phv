@@ -1,0 +1,12 @@
+<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/874195613&color=%2300ff4e&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+
+
+<iframe style="position: relative; top: 0; left: 0; width: 100%; height: 100%;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=flickr.com/photos/183650990@N02/albums/72157710887431697&sort=0&by=album&theme=compact&scale=fill&speed=5000&limit=35&skin=default-light&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"><p><a  href="https://www.codeguesser.co.uk/ao.com">CodeGuesser</a></p><small>Powered by <a href="https://flickrembed.com">flickr embed</a>.</small></iframe><script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
+
+
+<div id="flickrembed_18"></div><div style="position:absolute; top:-70px; display:block; text-align:center; z-index:-1;"><a  href="https://www.codeguesser.co.uk/ao.com">CodeGuesser</a></div><script src='https://flickrembed.com/embed_v2.js.rand.php?container=flickrembed_18&source=flickr&layout=fixed&input=flickr.com/photos/183650990@N02/albums/72157710887431697&sort=3&by=album&width=&height=&theme=compact&scale=fill&speed=3000&limit=35&skin=default-light&autoplay=true'></script><script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+
+
+https://flickr.com/photos/183650990@N02/albums/72157710887431697
