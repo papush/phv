@@ -90,7 +90,7 @@ div.fixed{
 }
 
 div.bottom{
-  position: fixed;
+  position:fixed;
   bottom: 0px;
   left: 0px;
   width: 900px;
@@ -128,6 +128,35 @@ div.bubble2 {
   font-size: 170%;
 }
 
+div.flechaL{
+  display: none !important;
+  position: fixed;
+  color: #62FF79;
+  color: rgb(255, 255, 255, 0.25);
+  font-size: 200%;
+  right:auto;
+  left:5px;
+  top:35px;
+}
+
+div.flechaR{
+  position: fixed;
+  color:  #62FF79;
+  color: rgb(255, 255, 255, 0.25);
+  font-size: 200%;
+  left:auto;
+  right:5px;
+  top:35px;
+  display: none !important;
+}
+
+.mobilio{
+  display:none;
+}
+
+.compulio{
+  display: inline;
+}
 a{
   color: #2EFF85;
   text-decoration: none;
@@ -171,6 +200,7 @@ p.mini{
   position: absolute;
   bottom: 0px;
 }
+
 .column1 {
     float: left;
     padding: 10px;
@@ -192,6 +222,14 @@ p.mini{
     clear: both;
 }
 
+p.pablofooter {
+  font-family:Georgia;
+  font-family: 'Jura', sans-serif;
+  font-size:210%;letter-spacing:10px;
+  color: #2EFF4D;
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 890px){
 
   .column1 {
@@ -208,11 +246,38 @@ p.mini{
       height:auto;
       box-sizing: content-box;
   }
-}
-p.pablofooter {
-  font-family:Georgia;
-  font-family: 'Jura', sans-serif;
-  font-size:210%;letter-spacing:10px;
-  color: #2EFF4D;
-  margin-bottom: 0px;
+
+  div.fixed{
+    position: fixed;
+    top: 120px;
+    left: 15%;
+    width: auto;
+  }
+  .mobilio{
+    display:inline;
+  }
+  .compulio{
+    display: none;
+  }
+
+  p.pablo {
+    font-size: 300%;
+  }
+  p.poly {
+      font-size: 130%;
+  }
+
+  div.bubble {
+    padding:10px;
+    max-width: 600px;
+    font-size: 130%;
+  }
+
+  div.flechaL{
+      display: inline !important;
+  }
+  div.flechaR{
+    display: inline !important;
+  }
+
 }

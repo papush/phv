@@ -10,3 +10,7 @@
 
 
 https://flickr.com/photos/183650990@N02/albums/72157710887431697
+
+
+
+BLOG:https://www.netlifycms.org/docs/middleman/#add-the-middleman-blog-extension
