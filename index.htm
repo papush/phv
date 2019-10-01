@@ -6,6 +6,8 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/bodex.css">
 <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/overlay.css">
+<script type="text/javascript" src="js/overlay.js"></script>
 <head>
 <link href="https://fonts.googleapis.com/css?family=Abel|Jura|Orbitron|Raleway&display=swap" rel="stylesheet">
 </head>
@@ -17,23 +19,52 @@
     <a href="music.htm"><li>Music</li></a>
     <a href="illustration.htm"><li>Illustration</li></a>
     <a href="photo.htm"><li>Photography</li></a>
-    <a href="web.htm"><li>Web Design</li></a>
+    <a hidden href="web.htm"><li>Web Design</li></a>
     <a href="about.htm"><li style="color:#62FF79">About me</li></a>
-    <a href="blog.htm"><li style="color:#62FF79">Blog</li></a>
-    <a href="contact.htm"><li style="color:#62FF79">Contact</li></a>
+    <a hidden href="blog.htm"><li style="color:#62FF79">Blog</li></a>
+    <span onclick="openNav1()" style="cursor:pointer"><li style="color:#62FF79">Contact</li></span>
   </ul>
 </nav>
 
 <div class="hand"><img src="img/Hand2.png"  style="max-width:50px;" alt="swipe"></div><div class="flechaR"></div>
 
 <div class="fixed">
-<p class="pablo">Pablo Hellmund</p><p class="poly compulio">Polymath - Minimalist - Creator - Futurist</p>
+<p class="pablo">Pablo Hellmund</p><p class="poly compulio">Creator - Minimalist - Polymath - Futurist</p>
   <div class="bubble">
-    <p class="poly mobilio" style="font-size:100%">Polymath - Minimalist - Creator - Futurist</p>
+    <p class="poly mobilio" style="font-size:100%">Creator - Minimalist - Polymath - Futurist</p>
     <p>Welcome to my Site!<br>I'm talented in many areas</p>
-    <p>We can surely help each other out <br>I've got a lot to give </p>
+    <p>We can surely help each other out</p>
   </div>
 
+</div>
+
+<div id="myNav1" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+          <div class="overlay-content">
+            <h1 class="overlad" style="color:white;font-size:300%">Contact Me:</h1>
+            <div class="bubble">
+            <p>There's several ways to reach me</p>
+              <ul style="color:white">
+                <li>papush8@gmail.com<img src="" alt=""></li>
+                <li class="compulio">(+506) 8329-2246<img src="" alt=""></li>
+                <li class="mobilio">(+506) 8329-2246<img src="" alt=""></li>
+              </ul>
+            </div>
+
+            <table class="compulio" style="max-width:300px;">
+               <tr>
+                <td><a target="_blank" href="https://t.me/DrPapz"><img class="sm2" src="img/tele.png" alt="telegram"></a></td>
+                <td><a target="_blank" href="mailto:pabloh8@gmail.com"><img class="sm2" src="img/gmail.png" alt="email"></a></td>
+                <td><a target="_blank" href="https://wa.me/50683292246"><img class="sm2" src="img/whats.png" alt="Whatsapp"></a></td>
+              </tr>
+            </table>
+
+            <div class="mobilio">
+              <a target="_blank" href="https://t.me/DrPapz"><img class="sm2" src="img/tele.png" alt="telegram"></a>
+              <a target="_blank" href="mailto:pabloh8@gmail.com"><img class="sm2" src="img/gmail.png" alt="email"></a>
+              <a target="_blank" href="https://wa.me/50683292246"><img class="sm2" src="img/whats.png" alt="Whatsapp"></a>
+            </div>
+        </div>
 </div>
 
 <div class="bottom">
@@ -48,5 +79,7 @@
   </ul>
 </div>
 </nav>
+
+
 </body>
 </html>

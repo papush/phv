@@ -67,8 +67,22 @@ nav ul li.bottom:hover {
 
 hr{
   color:#62FF79;
-  border: 1px #62FF79 solid;
+  border: 1px #62FF79;
 }
+
+img.sm{
+  max-width: 40px;
+  padding-left:7px;
+  padding-right:7px;
+}
+
+img.sm2{
+  display:inline;
+  max-width: 90px;
+  padding-left:7px;
+  padding-right:7px;
+}
+
 .container{
   max-width:980px;
   -webkit-column-count: 1; /* Chrome, Safari, Opera */
@@ -223,6 +237,10 @@ p.pablofooter {
   margin-bottom: 0px;
 }
 
+p.pfooter{
+  font-size:150%;letter-spacing:10px;
+}
+
 @media screen and (max-width: 890px){
 
   .column1 {
@@ -266,9 +284,23 @@ p.pablofooter {
     font-size: 130%;
   }
 
+  p.pfooter{
+    font-size: 130%;
+    letter-spacing:5px;
+  }
+
+  div.inline{
+    display:inline-block;
+  }
   div.hand{
       display: inline !important;
   }
 
+}
 
+@media screen and (max-width: 500px){
+  div.bubble {
+
+    font-size: 110%;
+  }
 }

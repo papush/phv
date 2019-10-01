@@ -6,6 +6,8 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/bodempty.css">
 <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/overlay.css">
+<script type="text/javascript" src="js/overlay.js"></script>
 <head>
 <link href="https://fonts.googleapis.com/css?family=Abel|Jura|Orbitron|Raleway&display=swap" rel="stylesheet">
 </head>
@@ -17,10 +19,10 @@
       <a href="music.htm"><li  class="active">Music</li></a>
       <a href="illustration.htm"><li>Illustration</li></a>
       <a href="photo.htm"><li>Photography</li></a>
-      <a href="web.htm"><li>Web Design</li></a>
+      <a hidden href="web.htm"><li>Web Design</li></a>
       <a href="about.htm"><li style="color:#62FF79">About me</li></a>
-      <a href="blog.htm"><li style="color:#62FF79">Blog</li></a>
-      <a href="contact.htm"><li style="color:#62FF79">Contact</li></a>
+      <a hidden href="blog.htm"><li style="color:#62FF79">Blog</li></a>
+      <span onclick="openNav1()" style="cursor:pointer"><li style="color:#62FF79">Contact</li></span>
     </ul>
   </nav>
   <div class="hand"><img src="img/Hand2.png"  style="max-width:50px;" alt="swipe"></div>
@@ -61,11 +63,42 @@
 </div>
 </nav>
 
-<div class="footer">
-<p class="pablofooter">Pablo Hellmund</p>
-<p class="gray" style="font-size:150%;letter-spacing:10px">(+506) 8329 2246</p>
-<p class="gray">designed by me :)</p>
+<div id="myNav1" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+          <div class="overlay-content">
+            <h1 class="overlad" style="color:white;font-size:300%">Contact Me:</h1>
+            <div class="bubble">
+            <p>There's several ways to reach me</p>
+              <ul style="color:white">
+                <li>papush8@gmail.com<img src="" alt=""></li>
+                <li class="compulio">(+506) 8329-2246<img src="" alt=""></li>
+                <li class="mobilio">(+506) 8329-2246<img src="" alt=""></li>
+              </ul>
+            </div>
 
+            <table class="compulio" style="max-width:300px;">
+               <tr>
+                <td><a target="_blank" href="https://t.me/DrPapz"><img class="sm2" src="img/tele.png" alt="telegram"></a></td>
+                <td><a target="_blank" href="mailto:pabloh8@gmail.com"><img class="sm2" src="img/gmail.png" alt="email"></a></td>
+                <td><a target="_blank" href="https://wa.me/50683292246"><img class="sm2" src="img/whats.png" alt="Whatsapp"></a></td>
+              </tr>
+            </table>
+
+            <div class="mobilio">
+              <a target="_blank" href="https://t.me/DrPapz"><img class="sm2" src="img/tele.png" alt="telegram"></a>
+              <a target="_blank" href="mailto:papush8@gmail.com"><img class="sm2" src="img/gmail.png" alt="email"></a>
+              <a target="_blank" href="https://wa.me/50683292246"><img class="sm2" src="img/whats.png" alt="Whatsapp"></a>
+            </div>
+        </div>
 </div>
+
+<div class="footer">
+<p class="pablofooter">Pablo Hellmund</p><br>
+<a <a target="_blank" href="https://instagram.com/papusart"><img class="sm" src="img/insta.png" alt="telegram"></a>
+<a target="_blank" href="https://cr.linkedin.com/in/pablo-hellmund-a1305373/%7Bcountry%3Dus%2C+language%3Den%7D?trk=people-guest_profile-result-card_result-card_full-click"><img class="sm" src="img/linked.png" alt="linkedin"></a>
+<a <a target="_blank" href="https://www.youtube.com/user/vergolapio/"><img class="sm" src="img/yout.png" alt="youtube"></a>
+<p class="gray">designed by me :)</p>
+</div>
+
 </body>
 </html>
