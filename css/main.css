@@ -65,6 +65,10 @@ nav ul li.bottom:hover {
   color: gray;
 }
 
+hr{
+  color:#62FF79;
+  border: 1px #62FF79 solid;
+}
 .container{
   max-width:980px;
   -webkit-column-count: 1; /* Chrome, Safari, Opera */
@@ -128,26 +132,15 @@ div.bubble2 {
   font-size: 170%;
 }
 
-div.flechaL{
+div.hand{
   display: none !important;
-  position: fixed;
+  position: absolute;
   color: #62FF79;
   color: rgb(255, 255, 255, 0.25);
   font-size: 200%;
   right:auto;
   left:5px;
   top:40px;
-}
-
-div.flechaR{
-  position: fixed;
-  color:  #62FF79;
-  color: rgb(255, 255, 255, 0.25);
-  font-size: 200%;
-  left:auto;
-  right:5px;
-  top:35px;
-  display: none !important;
 }
 
 .mobilio{
@@ -273,11 +266,9 @@ p.pablofooter {
     font-size: 130%;
   }
 
-  div.flechaL{
+  div.hand{
       display: inline !important;
   }
-  div.flechaR{
-    display: inline !important;
-  }
+
 
 }
