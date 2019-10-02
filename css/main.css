@@ -146,15 +146,15 @@ div.bubble2 {
   font-size: 170%;
 }
 
-div.hand{
+div.swipe{
   display: none !important;
   position: absolute;
   color: #62FF79;
   color: rgb(255, 255, 255, 0.25);
   font-size: 200%;
   right:auto;
-  left:5px;
-  top:40px;
+  left:20%;
+  top:60px;
 }
 
 .mobilio{
@@ -292,7 +292,7 @@ p.pfooter{
   div.inline{
     display:inline-block;
   }
-  div.hand{
+  div.swipe{
       display: inline !important;
   }
 
