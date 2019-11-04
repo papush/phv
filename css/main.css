@@ -83,6 +83,14 @@ img.sm2{
   padding-right:7px;
 }
 
+img.sm3{
+  display:block;
+  max-width: 45px;
+  padding-left:3px;
+  padding-right:3px;
+  white-space: nowrap;
+}
+
 .container{
   max-width:980px;
   -webkit-column-count: 1; /* Chrome, Safari, Opera */
@@ -292,6 +300,7 @@ p.pfooter{
   div.inline{
     display:inline-block;
   }
+
   div.swipe{
       display: inline !important;
   }
