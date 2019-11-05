@@ -1,0 +1,24 @@
+Pablohellmund.com 
+TO DO LIST:
+
+-buy domains:
+	-Pablo Hellmund.com
+	-Papus.art
+-implement multi-language stuff
+-contact buttons shrink in mobile horizontal
+-Add link "hundreds of costaricans"
+
+- ask for testimonials
+	-Ricardo Arango
+	-Gerardo Rodriguez
+	-Roberto Chepecletas:
+	-Fercho
+	-Alana Bliss
+	-Fabian Pacheco (eventualmente)
+
+Brainstorm Design Background:
+	-web design
+	-space design? tiny house design
+
+- add testimonials (index)
+-
