@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/bodex.css">
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/overlay.css">
+<link rel="stylesheet" href="css/gallery.css">
 <script type="text/javascript" src="js/overlay.js"></script>
 <head>
 <link href="https://fonts.googleapis.com/css?family=Abel|Jura|Orbitron|Raleway&display=swap" rel="stylesheet">
@@ -23,7 +24,7 @@
 <nav>
   <ul>
     <a href="music.htm"><li>Music</li></a>
-    <a href="gallery.htm"><li style="color:#A8FFB5">Gallery</li></a>
+    <a href="gallery.htm"><li  class="active" style="color:#A8FFB5">Gallery</li></a>
     <a style href="index.htm"><li class="pablo compulio">Pablo Hellmund</li></a>
     <a href="bio.htm"><li style="color:#A8FFB5">Bio</li></a>
     <span onclick="openNav1()" style="cursor:pointer"><li>Contact</li></span>
@@ -33,18 +34,40 @@
 <div class="swipe"><img src="img/swipeg.png" style="max-width:100%" alt="swipe"></div><div class="flechaR"></div>
 
 <div align="center">
+  <div class="" style="max-width:1200px;text-align:center">
+    <div class="roww">
+      <div class="column">
+        <img src="img/gal/07.jpg" width="100%" alt="photo">
+        <img src="img/gal/01.jpg" width="100%" alt="photo">
+        <img src="img/gal/06.jpg" width="100%"alt="photo">
+        <img src="img/gal/08.jpg" width="100%" alt="photo">
+        <img src="img/gal/05.jpg" width="100%" alt="photo">
+        <img src="img/gal/04.jpg" width="100%" alt="photo">
+      </div>
 
-  <div class="bubble" style="max-width:950px">
-    <div class="video-container">
-    <iframe width="600" height="375" src="https://www.youtube.com/embed/fmo0AcTpo9I?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="column">
+        <img src="img/gal/02.jpg" width="100%" alt="photo">
+        <img src="img/gal/14.png" width="100%" alt="photo">
+        <img src="img/gal/03.jpg" width="100%" alt="photo">
+      </div>
+
+      <div class="column">
+        <img src="img/gal/09.jpg" width="100%" alt="photo">
+        <img src="img/gal/10.jpg" width="100%" alt="photo">
+        <img src="img/gal/11.jpg" width="100%" alt="photo">
+        <img src="img/gal/12.jpg" width="100%" alt="photo">
+        <img src="img/gal/13.png" width="100%" alt="photo">
+      </div>
     </div>
+
   </div>
 
 
-</div>
 
 
 
+
+  </div>
 
 
 <div class="fixed">
@@ -81,20 +104,8 @@
         </div>
 </div>
 
-<div class="bottom">
-<nav hidden class="bottom">
-  <ul class="bottom">
-    <li class="bottom">Sound Design</li>
-    <li class="bottom">Public Speaking</li>
-    <li class="bottom">Permaculture</li>
-    <li class="bottom">Construction</li>
-    <li class="bottom">Activism</li>
 
-  </ul>
-</div>
-</nav>
-
-<div class="lang"><a href="es.htm">Español</a></div>
+<div class="lang"><a href="galeria.htm">Español</a></div>
 
 <div class="footer">
 <a <a target="_blank" href="https://open.spotify.com/artist/5sh7zG8OcAnRHZTFPAE7O8"><img class="sm" src="img/spotify.png" alt="spotify"></a>
@@ -105,7 +116,7 @@
 <h2 style="color:#999999;color:#2EFF4D;">Stay up to date with Pablo:</h2>
 <form name="contact" method="POST" data-netlify="true">
   <p>
-    <label hidden>Name: <input type="text" name="name" /></label><label>Email: <input type="email" name="email" /></label><button type="submit">Subscribe</button>
+    <label hidden>Name: <input type="text" name="name" /></label><label>Your email: <input type="email" name="email" /></label><button type="submit">Subscribe</button>
   </p>
 </form>
 

@@ -1,10 +1,11 @@
 
 
 nav {
-background-color: rgb(140, 140, 140, 0.3);
+background-color: rgb(140, 140, 140, 0.1);
+background-color: none;
 margin: none;
 padding: 5px;
-max-height: 50px;
+max-height: 90px;
 overflow: auto;
 white-space: nowrap;
 }
@@ -15,7 +16,8 @@ text-align: center;
 
 nav ul li {
   font-family: monospace;
-  font-size: 120%;
+  font-family: 'Jura', sans-serif;
+  font-size: 100%;
   color: white;
   display:inline;
   padding: 10px;
@@ -31,6 +33,12 @@ nav ul li.active{
 
 nav ul li:hover {
   background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+nav ul li.pablo:hover {
+  background-color: rgb(255, 255, 255, 0.0);
   border-radius: 10px;
   cursor: pointer;
 }
@@ -110,7 +118,7 @@ section{
 
 div.fixed{
   position: fixed;
-  top: 120px;
+  top: 100px;
   left: 100px;
   width: 900px;
 }
@@ -127,10 +135,12 @@ div.footer{
   margin:0;
   margin-top: 110px;
   padding:30px;
-  min-height: 150px;
+  min-height: 100px;
   width:auto;
   text-align: center;
 }
+
+
 
 div.bubble {
   background-color: rgb(0, 0, 0, 0.3);
@@ -142,6 +152,7 @@ div.bubble {
   max-width: 500px;
   font-size: 170%;
 }
+
 
 div.bubble2 {
   background-color: rgb(0, 0, 0, 0.3);
@@ -162,7 +173,7 @@ div.swipe{
   font-size: 200%;
   right:auto;
   left:20%;
-  top:60px;
+  top:100px;
 }
 
 .mobilio{
@@ -177,6 +188,22 @@ a{
   text-decoration: none;
 }
 
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
 h1 {
   font-family:Georgia;
   font-family: 'Jura', sans-serif;
@@ -186,11 +213,40 @@ h1 {
 }
 p.pablo {
   font-family:Georgia;
-  font-family: 'Jura', sans-serif;
+  font-family: 'IM Fell Double Pica SC', serif;
+  font-family: 'Jura', sans-serif;a.pa
   font-size: 500%;
   color: #2EFF4D;
   margin-bottom: 0px;
 }
+
+li.pablo {
+  font-family: 'Jura', sans-serif;
+  font-family: 'Jolly Lodger', cursive;
+  font-family: 'IM Fell Double Pica SC', serif;
+  letter-spacing: 7px;
+  font-size: 290%;
+  color:#FF6F0F;
+  color: #2EFF4D;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  marginright: 20px;
+}
+
+li.pablo2 {
+  font-family: 'Jura', sans-serif;
+  font-family: 'Jolly Lodger', cursive;
+  font-family: 'IM Fell Double Pica SC', serif;
+  letter-spacing: 6px;
+  font-size: 280%;
+  color:#FF6F0F;
+  color: #2EFF4D;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 0px;
+  marginright: 0px;
+}
+
 
 p.pablofooter {
   font-family:Georgia;
@@ -202,7 +258,7 @@ p.pablofooter {
 
 p.poly {
   color: gray;
-  font-family: 'Jura', sans-serif;
+  font-family: 'Jura', .sans-serif;
   font-style: italic;
   font-size: 150%;
 }
@@ -231,6 +287,10 @@ p.mini{
     box-sizing:border-box;
 }
 
+.column{
+
+}
+
 .row:after {
     content: "";
     display: table;
@@ -249,7 +309,75 @@ p.pfooter{
   font-size:150%;letter-spacing:10px;
 }
 
+input[type=text] {
+  max-width:200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-right: 10px;
+  background: black;
+  display: inline-block;
+  border: 1px solid #2EFF4D;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+input[type=email] {
+  max-width:200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background: black;
+  display: inline-block;
+  border: 1px solid #2EFF4D;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  width: 120px;
+  background-color: #2EFF4D;
+  color: black;
+  font-size: 120%;
+  padding: 7px 5px;
+  margin: 8px 0;
+  margin-left: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #62FF79;
+}
+
+label {
+  color: #2EFF4D;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+div.lang{
+  position: fixed;
+  right:5px;
+  bottom:5px;
+  left:auto;
+  background-color: none;
+  color: #2EFF4D;
+  border: 1px solid #2EFF4D;
+  padding: 7px;
+}
+
+div.lang:hover{
+    border: 1px solid #B8FFC2;
+}
+
+
+
 @media screen and (max-width: 890px){
+
+  .row{
+    height: 1800px;
+  }
 
   .column1 {
       float: left;
@@ -301,7 +429,7 @@ p.pfooter{
     display:inline-block;
   }
 
-  div.swipe{
+  div.f{
       display: inline !important;
   }
 
@@ -311,5 +439,9 @@ p.pfooter{
   div.bubble {
 
     font-size: 110%;
+  }
+
+  .row{
+    height: 1850px;
   }
 }
