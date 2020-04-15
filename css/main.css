@@ -336,6 +336,11 @@ p.pfooter{
   font-size:150%;letter-spacing:10px;
 }
 
+input, select, textarea{
+    color: #2EFF4D;
+    color: gray;
+}
+
 input[type=text] {
   max-width:200px;
   padding: 12px 20px;
