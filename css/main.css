@@ -370,6 +370,10 @@ div.lang{
 div.lang:hover{
     border: 1px solid #B8FFC2;
 }
+div.bio{
+  font-size: 100%;
+  word-wrap: break-word;
+}
 
 
 
@@ -392,6 +396,9 @@ div.lang:hover{
       padding: 10px;
       height:auto;
       box-sizing: content-box;
+  }
+  div.bio{
+    font-size: 120%;
   }
 
   div.fixed{
@@ -437,11 +444,31 @@ div.lang:hover{
 
 @media screen and (max-width: 500px){
   div.bubble {
-
     font-size: 110%;
   }
 
+  div.bio{
+    font-size: 140%;
+  }
+
+
   .row{
-    height: 1850px;
+    height: 2400px;
+  }
+}
+@media screen and (max-width: 400px){
+  .row{
+    height: 2800px;
+  }
+
+@media screen and (max-width: 350px){
+  .row{
+    height: 3000px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .row{
+    height: 3300px;
   }
 }
