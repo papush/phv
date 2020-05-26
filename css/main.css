@@ -381,6 +381,25 @@ button[type=submit]:hover {
   background-color: #62FF79;
 }
 
+a.presave {
+  background-color: #2EFF4D;
+  color: black;
+  font-size: 250%;
+  padding: 7px 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 8px 0;
+  margin-left: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+a.presave:hover {
+  background-color: #62FF79;
+}
+
+
 label {
   color: #2EFF4D;
 }
@@ -480,4 +499,8 @@ div.bio{
   div.bio{
     font-size: 140%;
   }
+
+  a.presave {
+    font-size: 180%;}
+
 }
