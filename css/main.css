@@ -137,6 +137,11 @@ section{
   border-radius: 15px;
 }
 
+span.forma {
+  display:grid;
+}
+
+
 div.fixed{
   position: fixed;
   top: 100px;
@@ -341,15 +346,18 @@ input, select, textarea{
     color: gray;
 }
 
+
 input[type=text] {
   max-width:200px;
   padding: 12px 20px;
   margin: 8px 0;
-  margin-right: 10px;
-  color: white;
-  background: none;
+  background: black;
+  color:grey;
   display: inline-block;
-  border: 1px solid #2EFF4D;
+  border-bottom: 1px solid #2EFF4D;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   border-radius: 15px;
   box-sizing: border-box;
 }
@@ -359,7 +367,10 @@ input[type=email] {
   margin: 8px 0;
   background: black;
   display: inline-block;
-  border: 1px solid #2EFF4D;
+  border-bottom: 1px solid #2EFF4D;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   border-radius: 15px;
   box-sizing: border-box;
 }
