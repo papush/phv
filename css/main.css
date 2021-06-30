@@ -442,7 +442,7 @@ div.bio{
 }
 
 
-@media screen and (max-width: 605px){
+@media screen and (max-width: 470px){
   span.forma {
     display:block;
     max-width: 300px;
