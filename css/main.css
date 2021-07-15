@@ -94,6 +94,12 @@ nav ul li.bottom:hover {
   color: gray;
 }
 
+ul.nobullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 20px; /* Remove margins */
+}
+
 hr{
   color:#62FF79;
   border: 1px #62FF79;
@@ -217,9 +223,14 @@ div.swipe{
 .compulio{
   display: inline;
 }
+
 a{
   color: #2EFF85;
   text-decoration: none;
+}
+
+a:hover{
+  color: ##05FF41;
 }
 
 .video-container {
