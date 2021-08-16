@@ -163,6 +163,10 @@ span.forma {
 }
 
 
+div.height{
+  height: 615px
+}
+
 div.fixed{
   position: fixed;
   top: 100px;
@@ -541,11 +545,19 @@ iframe.bandcampplayer{
   iframe.flickrembedo{
     height: 200px;
   }
+
+  div.height{
+    height: 815px
+  }
 }
+
 
 
 @media screen and (max-width: 890px){
 
+div.height {
+  height: 1100px
+}
 
   iframe.bandcampplayer{
     margin:3px;
@@ -619,6 +631,11 @@ iframe.bandcampplayer{
 }
 
 @media screen and (max-width: 500px){
+
+  div.height{
+    height: 915px
+  }
+
   div.bubble {
     font-size: 110%;
   }
