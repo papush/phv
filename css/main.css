@@ -106,6 +106,20 @@ hr{
 }
 
 
+#imgbw:hover {
+    ...
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: all .3s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+}
+#imgbw {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%);/* Chrome 19+ & Safari 6+ */
+    -moz-filter: grayscale(100%)
+  }
+
 img.sm{
   max-width: 40px;
   padding-left:7px;
@@ -486,6 +500,14 @@ div.lang{
   padding: 7px;
 }
 
+div.follow{
+  position: fixed;
+  left:5px;
+  bottom:5px;
+  right:auto;
+  background-color: none;
+}
+
 div.lang:hover{
     border: 1px solid #B8FFC2;
 }
@@ -494,9 +516,19 @@ div.bio{
   word-wrap: break-word;
 }
 
+div.bio2{
+  font-size: 100%;
+  word-wrap: break-word;
+}
+
 
 div.flickrembedo{
   height: 500px;
+}
+
+
+iframe.bandcampplayer{
+  margin:11px;
 }
 
 @media screen and (max-width: 470px){
@@ -511,7 +543,13 @@ div.flickrembedo{
   }
 }
 
+
 @media screen and (max-width: 890px){
+
+
+  iframe.bandcampplayer{
+    margin:3px;
+  }
 
   iframe.flickrembedo{
     height: 350px;
@@ -533,6 +571,10 @@ div.flickrembedo{
   }
   div.bio{
     font-size: 120%;
+  }
+
+  div.bio2{
+    font-size: 100%;
   }
 
   div.fixed{
@@ -583,6 +625,10 @@ div.flickrembedo{
 
   div.bio{
     font-size: 140%;
+  }
+
+  div.bio2{
+    font-size: 100%;
   }
 
   a.presave {
