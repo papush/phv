@@ -5,7 +5,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/bodex.css">
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/main.css?1">
 <link rel="stylesheet" href="css/overlay.css">
 <script type="text/javascript" src="js/overlay.js"></script>
 <head>
@@ -34,42 +34,61 @@
 
 <div id="container">
 <div id="main">
-<div align="center">
-  <div class=container >
-        <section style="text-align:center;">
-          <h1>Escucha en:</h1>
-          <br><br>
-          <div style="display:inline-block">
-            <a target="_blank "href="https://www.youtube.com/channel/UC8Wo3K--E6fvnUMI6BZfGdw"><img style="max-width:70px" src="img/YT.png" alt="youtube"></a>
-            <a target="_blank "href="https://soundcloud.com/pablo-hellmund"><img style="max-width:70px" src="img/SC.png" alt="soundcloud"></a>
-            <a target="_blank "href="https://open.spotify.com/artist/5sh7zG8OcAnRHZTFPAE7O8"><img style="max-width:70px" src="img/SP.png" alt="spotify"></a>
-            <a target="_blank "href="https://music.apple.com/us/artist/pablo-hellmund/1505685159"><img style="max-width:70px" src="img/IT.png" alt="itunes"></a>
-            <a target="_blank "href="https://pablohellmund.bandcamp.com"><img style="max-width:65px" src="img/BC.png" alt="bandcamp"></a>
-          </div>
+  <div align="center">
+    <div class=container >
+          <section style="text-align:center;">
 
-          <h4>Y demás plataformas</h4>
-          <br>
-          <h1>Lanzamientos</h1>
+            <h1>Lanzamientos</h1><br><br>
+            <div style="text-align:center">
+              <iframe class="bandcampplayer" style="border: 0; width: 220px; height: 220px;" src="https://bandcamp.com/EmbeddedPlayer/track=3357887285/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/" seamless><a href="https://pablohellmund.bandcamp.com/track/susto">Susto by Pablo Hellmund</a></iframe>
+              <iframe class="bandcampplayer" style="border: 0; width: 220px; height: 220px;" src="https://bandcamp.com/EmbeddedPlayer/album=3044631347/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/track=968489101/transparent=true/" seamless><a href="https://pablohellmund.bandcamp.com/album/coraz-n-de-fuego">Corazón de Fuego by Pablo Hellmund</a></iframe>
+              <iframe class="bandcampplayer" style="border: 0; width: 220px; height: 220px;" src="https://bandcamp.com/EmbeddedPlayer/track=2117701491/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/" seamless><a href="https://pablohellmund.bandcamp.com/track/quietly">Quietly by Pablo Hellmund</a></iframe>
+              <iframe class="bandcampplayer" style="border: 0; width: 220px; height: 220px;" src="https://bandcamp.com/EmbeddedPlayer/track=79881383/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/" seamless><a href="https://pablohellmund.bandcamp.com/track/tu-vodka">Tu Vodka by Pablo Hellmund</a></iframe>
+              <iframe class="bandcampplayer" style="border: 0; width: 220px; height: 220px;" src="https://bandcamp.com/EmbeddedPlayer/album=463447927/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/" seamless><a href="https://pablohellmund.bandcamp.com/album/raissa-en-el-fondo-del-mar">Raissa en el fondo del mar by Pablo Hellmund</a></iframe>
+            </div>
 
-          <div class="">
-            <iframe style="border: 0;margin:10px; width: 295px; height: 437px;" src="https://bandcamp.com/EmbeddedPlayer/album=3044631347/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="http://pablohellmund.bandcamp.com/album/coraz-n-de-fuego">Corazón de Fuego by Pablo Hellmund</a></iframe>
-            <iframe style="border: 0;margin:10px; width: 295px; height: 437px;" src="https://bandcamp.com/EmbeddedPlayer/track=2117701491/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="http://pablohellmund.bandcamp.com/track/quietly">Quietly by Pablo Hellmund</a></iframe>
-            <iframe style="border: 0;margin:10px; width: 295px; height: 437px;" src="https://bandcamp.com/EmbeddedPlayer/album=463447927/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="http://pablohellmund.bandcamp.com/album/raissa-en-el-fondo-del-mar">Raissa en el fondo del mar by Pablo Hellmund</a></iframe>
-          </div>
+            <h1 hidden>Escucha en:</h1>
+            <br><br>
+            <div style="display:inline-block">
+              <a target="_blank "href="https://www.youtube.com/channel/UC8Wo3K--E6fvnUMI6BZfGdw"><img id="imgbw" style="max-width:60px" src="img/YT.png" alt="youtube"></a>
+              <a target="_blank "href="https://soundcloud.com/pablo-hellmund"><img id="imgbw" style="max-width:60px" src="img/SC.png" alt="soundcloud"></a>
+              <a target="_blank "href="https://open.spotify.com/artist/5sh7zG8OcAnRHZTFPAE7O8"><img id="imgbw" style="max-width:60px" src="img/SP.png" alt="spotify"></a>
+              <a target="_blank "href="https://music.apple.com/us/artist/pablo-hellmund/1505685159"><img id="imgbw" style="max-width:60px" src="img/IT2.png" alt="itunes"></a>
+              <a target="_blank "href="https://pablohellmund.bandcamp.com"><img id="imgbw" style="max-width:60px" src="img/BC.png" alt="bandcamp"></a>
+            </div>
 
-            <div class="row">
-                          <div hidden class="column1">
-                            <h2>Más reciente</h2>
-                            <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=2117701491/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/transparent=true/" seamless><a href="http://pablohellmund.bandcamp.com/track/quietly">Quietly by Pablo Hellmund</a></iframe>
-                          </div>
-          		            <div hidden class="column2">
-                            <h2>Anterior</h2>
-                            <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=463447927/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/transparent=true/" seamless><a href="http://papusmusic.bandcamp.com/album/raissa-en-el-fondo-del-mar">Raissa en el fondo del mar by Papus</a></iframe>
-                          </div>
-                      </div>
-        </section>
+            <h4>Y demás plataformas</h4>
+            <br>
+
+            <div class="bubble" style="max-width:950px">
+              <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/W6fg4EoE1UQ?rel=0?version=3&autoplay=0&controls=0&&showinfo=0&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <br>
+              <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4T1qfDl5uxM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <br>
+              <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fmo0AcTpo9I?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <br>
+            </div>
+
+
+              <div class="row">
+                            <div hidden class="column1">
+                              <h2>Most Recent</h2>
+                              <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=2117701491/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/transparent=true/" seamless><a href="http://pablohellmund.bandcamp.com/track/quietly">Quietly by Pablo Hellmund</a></iframe>
+                            </div>
+            		            <div hidden class="column2">
+                              <h2>Previous</h2>
+                              <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=463447927/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/transparent=true/" seamless><a href="http://papusmusic.bandcamp.com/album/raissa-en-el-fondo-del-mar">Raissa en el fondo del mar by Papus</a></iframe>
+                            </div>
+                        </div>
+          </section>
+    </div>
   </div>
-</div>
 
 
 <div class="fixed">
@@ -78,22 +97,20 @@
 <div id="myNav1" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
           <div class="overlay-content">
-            <h1 class="overlad" style="color:white;font-size:300%">Contact Me:</h1>
+            <h1 class="overlad" style="color:white;font-size:300%">Contacto:</h1>
             <div class="bubble">
-            <p>There's several ways to reach me</p>
-              <ul style="color:white">
-                <li>music@pablohellmund.com<img src="" alt=""></li>
-                <li class="compulio">+31 6 4445 9893<img src="" alt=""></li>
-                <li class="mobilio">+31 6 4445 9893<img src="" alt=""></li>
-              </ul>
-              <p><strong>KVK</strong><br>84088907</p>
+            <p></p>
+            <ul class="nobullets">
+              <li><address><a class="address" href="mailto:music@pablohellmund.com">music@pablohellmund.com</a></address></li>
+              <li><address><a class="address" href="tel:+31644459893">+31 6 4445 9893</a></address></li>
+            </ul>
             </div>
 
             <table class="compulio" style="max-width:300px;">
                <tr>
                 <td><a target="_blank" href="https://t.me/DrPapz"><img class="sm2" src="img/tele.png" alt="telegram"></a></td>
                 <td><a target="_blank" href="mailto:music@pablohellmund.com"><img class="sm2" src="img/gmail.png" alt="email"></a></td>
-                <td><a target="_blank" href="https://wa.me/50683292246"><img class="sm2" src="img/whats.png" alt="Whatsapp"></a></td>
+                <td><a target="_blank" href="https://wa.me/31644459893"><img class="sm2" src="img/whats.png" alt="Whatsapp"></a></td>
               </tr>
             </table>
 
@@ -101,7 +118,7 @@
                <tr>
                 <td><a target="_blank" href="https://t.me/DrPapz"><img class="sm3" src="img/tele.png" alt="telegram"></a></td>
                 <td><a target="_blank" href="mailto:music@pablohellmund.com"><img class="sm3" src="img/gmail.png" alt="email"></a></td>
-                <td><a target="_blank" href="https://wa.me/50683292246"><img class="sm3" src="img/whats.png" alt="Whatsapp"></a></td>
+                <td><a target="_blank" href="https://wa.me/31644459893"><img class="sm3" src="img/whats.png" alt="Whatsapp"></a></td>
               </tr>
             </table>
         </div>

@@ -1,0 +1,185 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Jura', 'sans-serif';
+  background-color: black;
+}
+
+h1{
+font-size: 340%;
+}
+
+main {
+  background-color: Black;
+  color:#25EE48;
+  display:inline;
+  padding: 2%;
+  padding-left: 5%;
+  box-sizing: border-box;
+  width: 75%;
+  margin: 0px;
+  height: auto;
+  float: left;
+}
+
+aside {
+  background-color: #1a1a1a;
+  display: inline;
+  width: 25%;
+  left:0px;
+  right:auto;
+  height: 683px;
+  float: right;
+  padding: 2% ;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+
+
+div.fadein {
+    position: static;
+    width:75%;
+    height: auto;
+    }
+
+div.fadein img {
+      width: 100%;
+      max-height: 400px;
+      object-fit:cover;
+    }
+
+form {
+
+}
+form input[type=text], [type=email] {
+  margin-bottom:25px;
+  margin-top: 5px;
+  padding: 10px;
+  width: 80%;
+  height: 2em;
+  background-color: #454545;
+  color:white;
+  border: gray solid 1px;
+  border-radius: 5px;
+  font-size: 100%;
+
+}
+
+form label{
+  margin:0px;
+  font-size: 130%;
+  color: white;
+}
+
+form button[type=submit] {
+  background-color: #25EE48;
+  padding: 10px;
+  width: 90%;
+  color:Black;
+  font-weight: bold;
+  border: black solid 1px;
+  border-radius: 5px;
+  font-size: 145%;
+  margin:20px 0px ;
+  font-family: 'jura', 'sans-serif';
+}
+
+form button[type=submit]:hover {
+  background-color: black;
+  width: 90%;
+  color:WHITE;
+  border: white solid 1px;
+}
+
+button.accordion {
+    display: none;
+    background-color: black;
+    padding: 10px 25px;
+    margin: 10px 25px;
+    width: auto;
+    color:#25EE48;
+    font-weight: bold;
+    border: #25EE48 solid 1px;
+    border-radius: 5px;
+    font-size: 145%;
+    font-family: 'jura', 'sans-serif';
+    transition: 0.4s;
+
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    color:#9EDA2F;
+
+}
+
+div.align{
+  display: none;
+}
+
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.w3-animate-opacity{animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.w3-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.w3-animate-input{transition:width 0.4s ease-in-out}.w3-animate-input:focus{width:100%!important}
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+button.accordion {
+  display: block;
+}
+
+aside{ display: none;
+}
+
+main{
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 280%;
+}
+
+#quote{
+  color: #6d6d6d;
+  font-size: 130%;
+  margin:20px 20px;
+
+}
+
+div.align {
+display: flex;
+justify-content: flex-end;
+}
+
+div.fadein {
+      width:100%;
+      display: inline-block;
+      height: auto;
+    }
+
+}
+
+
+@media screen and (max-width:432px) {
+  h1{
+    font-size: 220%;
+  }
+
+}

@@ -348,4 +348,3 @@
     function closeNav50() {
     document.getElementById("myNav50").style.width = "0%";
     }
-

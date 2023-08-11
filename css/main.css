@@ -259,7 +259,7 @@ a{
 }
 
 a:hover{
-  color: ##05FF41;
+  color: #05FF41;
 }
 
 .video-container {
@@ -313,6 +313,19 @@ li.pablo2 {
   font-family: 'IM Fell Double Pica SC', serif;
   letter-spacing: 6px;
   font-size: 280%;
+  color:#FF6F0F;
+  color: #2EFF4D;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 0px;
+  marginright: 0px;
+}
+
+p.pablo3 {
+  font-family: 'Jura', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  letter-spacing: 6px;
+  font-size: 240%;
   color:#FF6F0F;
   color: #2EFF4D;
   margin-bottom: 10px;
@@ -530,10 +543,15 @@ div.flickrembedo{
   height: 500px;
 }
 
+iframe{
+    transform: translate3d(0,0,0);
+}
 
 iframe.bandcampplayer{
   margin:11px;
 }
+
+
 
 @media screen and (max-width: 470px){
   span.forma {

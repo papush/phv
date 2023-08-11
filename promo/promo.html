@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>4 free pictures!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="stylesheet" href="promo.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abel|Jura|Orbitron|Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Jolly+Lodger&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+    <main>
+      <h1><strong style="font-size:140%;">4 free pictures</strong> for your business</h1>
+
+    </main>
+
+
+
+    <aside>
+        <form action="contact.php" method="post">
+          <label for="company"> Company:</label>
+          <input type="text" id="company" name="company" value="" placeholder="Your Company's Name">
+
+          <label for="manager">Manager/Contact Person:</label>
+          <input type="text" id="manager" name="first_name" value="" placeholder="First Name">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" value="" placeholder="your@email.adress">
+
+          <button type="submit" name="submit" value="submit">Claim my pictures!</button>
+        </form>
+    </aside>
+
+    <div class="fadein">
+      <img class="mySlides w3-animate-opacity" src="1.jpg" alt="." >
+      <img class="mySlides w3-animate-opacity" src="2.jpg" alt="." >
+      <img class="mySlides w3-animate-opacity" src="3.jpg" alt="." >
+      <img class="mySlides w3-animate-opacity" src="4.jpg" alt="." >
+      <img class="mySlides w3-animate-opacity" src="5.jpg" alt="." >
+    </div>
+
+    <div class="align">
+    <button class="accordion">Claim them!</button>
+    </div>
+
+        <div class="panel w3-animate-top" id="panelito">
+          <form action="contact.php" method="post">
+            <br>
+            <label for="company"> Company:</label><br>
+            <input type="text" id="company" name="message" value="" placeholder="Your Company's Name"><br>
+
+            <label for="manager">Manager/Contact Person:</label><br>
+            <input type="text" id="manager" name="first_name" value="" placeholder="First Name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" value="" placeholder="your@email.adress"><br>
+
+            <button type="submit" name="submit" value="submit">Submit</button>
+          </form>
+        </div>
+
+
+<p id="quote"><em>"The quality of the images is one of the most vital components in producing content that people share, comment on and are interested in."</em>
+<br><br>
+-- James from  www.cliikstudios.co.uk
+</p>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = document.getElementById("panelito");
+        var quote = document.getElementById("quote");
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+            quote.style.display = "block";
+        } else {
+            panel.style.display = "block";
+            quote.style.display = "none";
+
+        }
+    }
+}
+</script>
+
+
+  </body>
+</html>

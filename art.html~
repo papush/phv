@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<title>Pablo Hellmund | Illustrator in Groningen</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/bodempty.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/overlay.css">
+<script type="text/javascript" src="js/overlay.js"></script>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Abel|Jura|Orbitron|Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <a href="music.html"><li>Music</li></a>
+      <a href="art.htm"><li class="active">Visual Art</li></a>
+      <a href="photo.htm"><li>Photography</li></a>
+      <a hidden href="web.htm"><li>Web Design</li></a>
+      <a href="about.htm"><li style="color:#62FF79">About me</li></a>
+      <a hidden href="blog.htm"><li style="color:#62FF79">Blog</li></a>
+      <span onclick="openNav1()" style="cursor:pointer"><li style="color:#62FF79">Contact</li></span>
+    </ul>
+  </nav>
+  <div class="swipe"><img src="img/swipeg.png" style="max-width:100%" alt="swipe"></div>
+
+
+<div align="center">
+  <div class=container>
+        <section>
+            <div class="row">
+                          <div class="column1">
+                            <h1>ART & Illustration</h1>
+                            <div class="bubble">
+                            <p>I specialize in character and environment design.</p>
+                            <p>My style is both cartoonish and spooky</p>
+
+                            </div>
+                          </div>
+          		            <div class="column2" >
+                            <!-- SnapWidget -->
+                            <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                            <iframe src="https://snapwidget.com/embed/737963" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+                            <p style="font-size:100%">follow me on Instagram as <a target="_blank" href="https://www.instagram.com/papus.art/">papus.art</a></p>
+                          </div>
+                      </div>
+        </section>
+  </div>
+</div>
+
+<div class="bottom">
+<nav hidden class="bottom">
+  <ul class="bottom">
+    <li class="bottom">Sound Design</li>
+    <li class="bottom">Public Speaking</li>
+    <li class="bottom">Permaculture</li>
+    <li class="bottom">Construction</li>
+    <li class="bottom">Activism</li>
+  </ul>
+</div>
+</nav>
+
+</div>
+
+<div id="myNav1" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+          <div class="overlay-content">
+            <h1 class="overlad" style="color:white;font-size:300%">Contact Me:</h1>
+            <div class="bubble">
+            <p>There's several ways to reach me</p>
+              <ul style="color:white">
+                <li>papush8@gmail.com<img src="" alt=""></li>
+                <li class="compulio">(+506) 8329-2246<img src="" alt=""></li>
+                <li class="mobilio">(+506) 8329-2246<img src="" alt=""></li>
+              </ul>
+            </div>
+
+            <table class="compulio" style="max-width:300px;">
+               <tr>
+                <td><a target="_blank" href="https://t.me/DrPapz"><img class="sm2" src="img/tele.png" alt="telegram"></a></td>
+                <td><a target="_blank" href="mailto:papush8@gmail.com"><img class="sm2" src="img/gmail.png" alt="email"></a></td>
+                <td><a target="_blank" href="https://wa.me/50683292246"><img class="sm2" src="img/whats.png" alt="Whatsapp"></a></td>
+              </tr>
+            </table>
+
+            <table class="mobilio" style="max-width:300px;">
+               <tr>
+                <td><a target="_blank" href="https://t.me/DrPapz"><img class="sm3" src="img/tele.png" alt="telegram"></a></td>
+                <td><a target="_blank" href="mailto:papush8@gmail.com"><img class="sm3" src="img/gmail.png" alt="email"></a></td>
+                <td><a target="_blank" href="https://wa.me/50683292246"><img class="sm3" src="img/whats.png" alt="Whatsapp"></a></td>
+              </tr>
+            </table>
+        </div>
+</div>
+
+<div class="footer">
+<p class="pablofooter">Pablo Hellmund</p><br>
+<a <a target="_blank" href="https://instagram.com/papusart"><img class="sm" src="img/insta.png" alt="telegram"></a>
+<a target="_blank" href="https://cr.linkedin.com/in/pablo-hellmund-a1305373/%7Bcountry%3Dus%2C+language%3Den%7D?trk=people-guest_profile-result-card_result-card_full-click"><img class="sm" src="img/linked.png" alt="linkedin"></a>
+<a <a target="_blank" href="https://www.youtube.com/user/vergolapio/"><img class="sm" src="img/yout.png" alt="youtube"></a>
+<p class="gray">designed by me :)</p>
+</div>
+
+</body>
+</html>
